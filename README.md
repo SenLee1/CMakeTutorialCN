@@ -1,5 +1,5 @@
 # CMake教程
-Update: 2021.02.03
+forked form shendeguize/CMakeTutorialCN for my study.
 
 Translator: [shendeguize@github](
 https://github.com/shendeguize)

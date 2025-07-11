@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpow.a CMakeFiles/pow.dir/pow.cpp.o
+/usr/bin/ranlib libpow.a

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20250711-0709-Experimental"
+	Name="senlee-Legion-Y7000P-IAH7"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="senlee-Legion-Y7000P-IAH7"
+	OSRelease="6.8.0-60-generic"
+	OSVersion="#63~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 22 19:00:15 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="154"
+	ProcessorCacheSize="24576"
+	NumberOfLogicalCPU="20"
+	NumberOfPhysicalCPU="14"
+	TotalVirtualMemory="15623"
+	TotalPhysicalMemory="23754"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="1447.4"
+	>
+	<Configure>
+		<StartDateTime>Jul 11 15:09 CST</StartDateTime>
+		<StartConfigureTime>1752217761</StartConfigureTime>
+		<ConfigureCommand>"/usr/bin/cmake" "/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step8"</ConfigureCommand>
+		<Log>-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step8/build
+</Log>
+		<ConfigureStatus>0</ConfigureStatus>
+		<EndDateTime>Jul 11 15:09 CST</EndDateTime>
+		<EndConfigureTime>1752217761</EndConfigureTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Configure>
+</Site>

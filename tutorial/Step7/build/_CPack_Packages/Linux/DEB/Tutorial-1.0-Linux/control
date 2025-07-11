@@ -1,0 +1,9 @@
+Architecture: amd64
+Description: Tutorial built using CMake
+Maintainer: Sen Lee <1786457344@qq.com>
+Package: tutorial
+Priority: optional
+Section: devel
+Version: 1.0
+Installed-Size: 23
+

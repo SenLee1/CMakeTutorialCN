@@ -1,0 +1,9 @@
+Upload files:
+0	Configure.xml
+1	Build.xml
+2	Test.xml
+3	Done.xml
+	Upload file: /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step8/build/Testing/20250711-0709/Configure.xml to senlee-Legion-Y7000P-IAH7___Linux-c++___20250711-0709-Experimental___XML___Configure.xml
+   Error when uploading file: /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step8/build/Testing/20250711-0709/Configure.xml
+   Error message was: The requested URL returned error: 502
+   Problems when submitting via HTTP

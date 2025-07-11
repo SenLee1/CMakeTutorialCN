@@ -51,8 +51,8 @@ set_tests_properties(Usage
 
 # define a function to simplify adding tests
 function(do_test target arg result)
-  add_test(NAME Comp${arg} COMMAND ${target} ${arg})
-  set_tests_properties(Comp${arg}
+    add_test(NAME Comp${arg} COMMAND ${target} ${arg})
+    set_tests_properties(Comp${arg}
     PROPERTIES PASS_REGULAR_EXPRESSION ${result}
     )
 endfunction(do_test)

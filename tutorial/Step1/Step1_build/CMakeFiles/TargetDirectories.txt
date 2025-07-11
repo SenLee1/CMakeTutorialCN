@@ -1,0 +1,3 @@
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step1/Step1_build/CMakeFiles/Mytutorial.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step1/Step1_build/CMakeFiles/edit_cache.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step1/Step1_build/CMakeFiles/rebuild_cache.dir

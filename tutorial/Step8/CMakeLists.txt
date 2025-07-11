@@ -16,8 +16,8 @@ configure_file(TutorialConfig.h.in TutorialConfig.h)
 
 # add the MathFunctions library
 if(USE_MYMATH)
-  add_subdirectory(MathFunctions)
-  list(APPEND EXTRA_LIBS MathFunctions)
+    add_subdirectory(MathFunctions)
+    list(APPEND EXTRA_LIBS MathFunctions)
 endif()
 
 # add the executable
@@ -35,9 +35,12 @@ install(TARGETS Tutorial DESTINATION bin)
 install(FILES "${PROJECT_BINARY_DIR}/TutorialConfig.h"
   DESTINATION include
   )
-
-# enable testing
-enable_testing()
+# ------------------------------------
+# # enable testing
+# enable_testing()
+# ------------------------------------
+include(CTest)
+# ------------------------------------
 
 # does the application run
 add_test(NAME Runs COMMAND Tutorial 25)
@@ -50,8 +53,8 @@ set_tests_properties(Usage
 
 # define a function to simplify adding tests
 function(do_test target arg result)
-  add_test(NAME Comp${arg} COMMAND ${target} ${arg})
-  set_tests_properties(Comp${arg}
+    add_test(NAME Comp${arg} COMMAND ${target} ${arg})
+    set_tests_properties(Comp${arg}
     PROPERTIES PASS_REGULAR_EXPRESSION ${result}
     )
 endfunction(do_test)

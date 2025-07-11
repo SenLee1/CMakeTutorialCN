@@ -64,3 +64,16 @@ do_test(Tutorial 7 "7 is 2.645")
 do_test(Tutorial 25 "25 is 5")
 do_test(Tutorial -25 "-25 is [-nan|nan|0]")
 do_test(Tutorial 0.0001 "0.0001 is 0.01")
+
+# 设置 Debian 包维护者信息（必须）
+set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Sen Lee <1786457344@qq.com>")
+# 设置依赖项（可选但推荐）
+set(CPACK_DEBIAN_PACKAGE_DEPENDS "libc6 (>= 2.31), libstdc++6 (>= 10.3)")
+
+# 安装包生成
+include(InstallRequiredSystemLibraries)
+set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/License.txt")
+set(CPACK_PACKAGE_VERSION_MAJOR "${Tutorial_VERSION_MAJOR}")
+set(CPACK_PACKAGE_VERSION_MINOR "${Tutorial_VERSION_MINOR}")
+# CPack module required
+include(CPack)

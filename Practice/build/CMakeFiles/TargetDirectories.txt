@@ -1,0 +1,14 @@
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/Practice/build/CMakeFiles/edit_cache.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/Practice/build/CMakeFiles/rebuild_cache.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/Practice/build/utils/CMakeFiles/math_utils.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/Practice/build/utils/CMakeFiles/edit_cache.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/Practice/build/utils/CMakeFiles/rebuild_cache.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/Practice/build/src/CMakeFiles/main_program.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/Practice/build/src/CMakeFiles/edit_cache.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/Practice/build/src/CMakeFiles/rebuild_cache.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/Practice/build/src/pow/CMakeFiles/pow.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/Practice/build/src/pow/CMakeFiles/edit_cache.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/Practice/build/src/pow/CMakeFiles/rebuild_cache.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/Practice/build/src/polynomial/CMakeFiles/polynomial.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/Practice/build/src/polynomial/CMakeFiles/edit_cache.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/Practice/build/src/polynomial/CMakeFiles/rebuild_cache.dir

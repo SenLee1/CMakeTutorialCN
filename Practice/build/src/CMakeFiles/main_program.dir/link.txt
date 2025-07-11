@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/main_program.dir/main.cpp.o -o ../bin/main_program  ../utils/libmath_utils.a pow/libpow.a polynomial/libpolynomial.a 

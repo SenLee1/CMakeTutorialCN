@@ -1,0 +1,4 @@
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step7/build/_CPack_Packages/Linux/TZ/Tutorial-1.0-Linux/bin/Tutorial
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step7/build/_CPack_Packages/Linux/TZ/Tutorial-1.0-Linux/include/TutorialConfig.h
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step7/build/_CPack_Packages/Linux/TZ/Tutorial-1.0-Linux/lib/libMathFunctions.a
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step7/build/_CPack_Packages/Linux/TZ/Tutorial-1.0-Linux/include/MathFunctions.h
