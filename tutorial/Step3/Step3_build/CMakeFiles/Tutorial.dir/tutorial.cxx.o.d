@@ -1,5 +1,5 @@
 CMakeFiles/Tutorial.dir/tutorial.cxx.o: \
- /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/tutorial.cxx \
+ /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3/tutorial.cxx \
  /usr/include/stdc-predef.h /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -156,5 +156,5 @@ CMakeFiles/Tutorial.dir/tutorial.cxx.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build/TutorialConfig.h \
- /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/MathFunctions/MathFunctions.h
+ /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build/TutorialConfig.h \
+ /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3/MathFunctions/MathFunctions.h

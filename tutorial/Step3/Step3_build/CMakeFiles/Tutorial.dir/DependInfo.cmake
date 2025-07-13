@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/tutorial.cxx" "CMakeFiles/Tutorial.dir/tutorial.cxx.o" "gcc" "CMakeFiles/Tutorial.dir/tutorial.cxx.o.d"
+  "/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3/tutorial.cxx" "CMakeFiles/Tutorial.dir/tutorial.cxx.o" "gcc" "CMakeFiles/Tutorial.dir/tutorial.cxx.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build/MathFunctions/CMakeFiles/MathFunctions.dir/DependInfo.cmake"
+  "/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build/MathFunctions/CMakeFiles/MathFunctions.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

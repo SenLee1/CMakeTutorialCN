@@ -1,4 +1,4 @@
-# Install script for directory: /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/MathFunctions
+# Install script for directory: /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3/MathFunctions
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,6 +1,6 @@
-/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build/CMakeFiles/Tutorial.dir
-/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build/CMakeFiles/edit_cache.dir
-/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build/CMakeFiles/rebuild_cache.dir
-/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build/MathFunctions/CMakeFiles/MathFunctions.dir
-/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build/MathFunctions/CMakeFiles/edit_cache.dir
-/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build/MathFunctions/CMakeFiles/rebuild_cache.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build/CMakeFiles/Tutorial.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build/CMakeFiles/edit_cache.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build/CMakeFiles/rebuild_cache.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build/MathFunctions/CMakeFiles/MathFunctions.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build/MathFunctions/CMakeFiles/edit_cache.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build/MathFunctions/CMakeFiles/rebuild_cache.dir

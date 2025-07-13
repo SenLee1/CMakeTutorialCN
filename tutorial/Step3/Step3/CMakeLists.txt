@@ -16,8 +16,8 @@ configure_file(TutorialConfig.h.in TutorialConfig.h)
 
 # add the MathFunctions library
 if(USE_MYMATH)
-  add_subdirectory(MathFunctions)
-  list(APPEND EXTRA_LIBS MathFunctions)
+    add_subdirectory(MathFunctions)
+    list(APPEND EXTRA_LIBS MathFunctions)
 endif()
 
 # add the executable

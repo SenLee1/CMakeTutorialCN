@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3
+CMAKE_SOURCE_DIR = /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build
+CMAKE_BINARY_DIR = /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -98,14 +98,14 @@ MathFunctions/clean: MathFunctions/CMakeFiles/MathFunctions.dir/clean
 CMakeFiles/Tutorial.dir/all: MathFunctions/CMakeFiles/MathFunctions.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build/CMakeFiles --progress-num=3,4 "Built target Tutorial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build/CMakeFiles --progress-num=3,4 "Built target Tutorial"
 .PHONY : CMakeFiles/Tutorial.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Tutorial.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Tutorial.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build/CMakeFiles 0
 .PHONY : CMakeFiles/Tutorial.dir/rule
 
 # Convenience name for target.
@@ -124,14 +124,14 @@ CMakeFiles/Tutorial.dir/clean:
 MathFunctions/CMakeFiles/MathFunctions.dir/all:
 	$(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/depend
 	$(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build/CMakeFiles --progress-num=1,2 "Built target MathFunctions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build/CMakeFiles --progress-num=1,2 "Built target MathFunctions"
 .PHONY : MathFunctions/CMakeFiles/MathFunctions.dir/all
 
 # Build rule for subdir invocation for target.
 MathFunctions/CMakeFiles/MathFunctions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/CMakeFiles/MathFunctions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build/CMakeFiles 0
 .PHONY : MathFunctions/CMakeFiles/MathFunctions.dir/rule
 
 # Convenience name for target.

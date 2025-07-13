@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3
+CMAKE_SOURCE_DIR = /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build
+CMAKE_BINARY_DIR = /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build && $(CMAKE_COMMAND) -E cmake_progress_start /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build/CMakeFiles /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build/MathFunctions//CMakeFiles/progress.marks
-	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build/CMakeFiles 0
+	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build && $(CMAKE_COMMAND) -E cmake_progress_start /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build/CMakeFiles /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build/MathFunctions//CMakeFiles/progress.marks
+	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/clean
+	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/preinstall
+	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/preinstall
+	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 MathFunctions/CMakeFiles/MathFunctions.dir/rule:
-	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/CMakeFiles/MathFunctions.dir/rule
+	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/CMakeFiles/MathFunctions.dir/rule
 .PHONY : MathFunctions/CMakeFiles/MathFunctions.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ MathFunctions: MathFunctions/CMakeFiles/MathFunctions.dir/rule
 
 # fast build rule for target.
 MathFunctions/fast:
-	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/build
+	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/build
 .PHONY : MathFunctions/fast
 
 mysqrt.o: mysqrt.cxx.o
@@ -135,7 +135,7 @@ mysqrt.o: mysqrt.cxx.o
 
 # target to build an object file
 mysqrt.cxx.o:
-	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o
+	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o
 .PHONY : mysqrt.cxx.o
 
 mysqrt.i: mysqrt.cxx.i
@@ -143,7 +143,7 @@ mysqrt.i: mysqrt.cxx.i
 
 # target to preprocess a source file
 mysqrt.cxx.i:
-	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.i
+	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.i
 .PHONY : mysqrt.cxx.i
 
 mysqrt.s: mysqrt.cxx.s
@@ -151,7 +151,7 @@ mysqrt.s: mysqrt.cxx.s
 
 # target to generate assembly for a file
 mysqrt.cxx.s:
-	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.s
+	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.s
 .PHONY : mysqrt.cxx.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step3/Step3_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
