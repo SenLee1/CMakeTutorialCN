@@ -3,9 +3,27 @@ cmake_minimum_required(VERSION 3.10)
 # set the project name and version
 project(Tutorial VERSION 1.0)
 
+# ========================================
 # specify the C++ standard
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
+# set(CMAKE_CXX_STANDARD 11)
+# set(CMAKE_CXX_STANDARD_REQUIRED True)
+# ========================================
+# 构建一个目标tutorial_compiler_flags
+add_library(tutorial_compiler_flags INTERFACE)
+# 让使用这个目标的项目编译选项使用std-11 标准
+target_compile_features(tutorial_compiler_flags INTERFACE cxx_std_11)
+# ========================================
+
+# =========================================
+# 设置gcc like 和 msvc like 编译选项
+set(gcc_like_cxx "$<COMPILE_LAND_AND_ID>:CXX,ARMClang,APPClang,Clang,GNU")
+set(msvc_like_cxx "$<COMPILE_LAND_AND_ID>:CXX,MSVC")
+target_compile_options(tutorial_compiler_flags INTERFACE
+    "$<{gcc_like_cxx}:$<BUILD_INTERFACE:-Wall;-Wextra;-Wshadow;-Wunused>>"
+    "$<{msvc_like_cxx}:$<BUILD_INTERFACE}:-W3>>"
+)
+# =========================================
+
 
 # control where the static and shared libraries are built so that on windows
 # we don't need to tinker with the path to run the executable

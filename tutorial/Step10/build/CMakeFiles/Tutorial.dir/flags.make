@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step10/build -I/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step10/MathFunctions
 
-CXX_FLAGS = -std=gnu++11
+CXX_FLAGS = 
 
