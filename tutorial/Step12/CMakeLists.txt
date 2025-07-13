@@ -1,3 +1,4 @@
+set(CMAKE_DEBUG_POSTFIX d)
 cmake_minimum_required(VERSION 3.15)
 
 # set the project name and version
@@ -5,6 +6,13 @@ project(Tutorial VERSION 1.0)
 
 add_library(tutorial_compiler_flags INTERFACE)
 target_compile_features(tutorial_compiler_flags INTERFACE cxx_std_11)
+
+# ========================↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓================================
+add_executable(Tutorial tutorial.cxx)
+set_target_properties(Tutorial PROPERTIES DEBUG_POSTFIX ${CMAKE_DEBUG_POSTFIX})
+
+target_link_libraries(Tutorial PUBLIC MathFunctions)
+# ========================↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑================================
 
 # add compiler warning flags just when building this project via
 # the BUILD_INTERFACE genex
@@ -24,9 +32,9 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}")
 option(BUILD_SHARED_LIBS "Build using shared libraries" ON)
 
 if(APPLE)
-  set(CMAKE_INSTALL_RPATH "@executable_path/../lib")
+    set(CMAKE_INSTALL_RPATH "@executable_path/../lib")
 elseif(UNIX)
-  set(CMAKE_INSTALL_RPATH "$ORIGIN/../lib")
+    set(CMAKE_INSTALL_RPATH "$ORIGIN/../lib")
 endif()
 
 # configure a header file to pass the version number only
@@ -34,10 +42,6 @@ configure_file(TutorialConfig.h.in TutorialConfig.h)
 
 # add the MathFunctions library
 add_subdirectory(MathFunctions)
-
-# add the executable
-add_executable(Tutorial tutorial.cxx)
-target_link_libraries(Tutorial PUBLIC MathFunctions)
 
 # add the binary tree to the search path for include files
 # so that we will find TutorialConfig.h
@@ -65,8 +69,8 @@ set_tests_properties(Usage
 
 # define a function to simplify adding tests
 function(do_test target arg result)
-  add_test(NAME Comp${arg} COMMAND ${target} ${arg})
-  set_tests_properties(Comp${arg}
+    add_test(NAME Comp${arg} COMMAND ${target} ${arg})
+    set_tests_properties(Comp${arg}
     PROPERTIES PASS_REGULAR_EXPRESSION ${result}
     )
 endfunction(do_test)

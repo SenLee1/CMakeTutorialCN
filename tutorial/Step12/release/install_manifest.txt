@@ -1,0 +1,10 @@
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step12/_CPack_Packages/Linux/TZ/Tutorial-1.0-Linux/lib/libMathFunctions.so.1.0.0
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step12/_CPack_Packages/Linux/TZ/Tutorial-1.0-Linux/lib/libMathFunctions.so.1
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step12/_CPack_Packages/Linux/TZ/Tutorial-1.0-Linux/lib/libMathFunctions.so
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step12/_CPack_Packages/Linux/TZ/Tutorial-1.0-Linux/lib/libSqrtLibrary.a
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step12/_CPack_Packages/Linux/TZ/Tutorial-1.0-Linux/include/MathFunctions.h
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step12/_CPack_Packages/Linux/TZ/Tutorial-1.0-Linux/bin/Tutorial
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step12/_CPack_Packages/Linux/TZ/Tutorial-1.0-Linux/include/TutorialConfig.h
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step12/_CPack_Packages/Linux/TZ/Tutorial-1.0-Linux/lib/cmake/MathFunctions/MathFunctionsTargets.cmake
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step12/_CPack_Packages/Linux/TZ/Tutorial-1.0-Linux/lib/cmake/MathFunctions/MathFunctionsTargets-release.cmake
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step12/_CPack_Packages/Linux/TZ/Tutorial-1.0-Linux/lib/cmake/MathFunctions/MathFunctionsConfig.cmake
