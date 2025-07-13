@@ -7,6 +7,7 @@ project(Mytutorial VERSION 1.0)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
+# 把TutorialConfig.h.in 生成为 TutorialConfig.h
 configure_file(TutorialConfig.h.in TutorialConfig.h)
 
 # add executable
