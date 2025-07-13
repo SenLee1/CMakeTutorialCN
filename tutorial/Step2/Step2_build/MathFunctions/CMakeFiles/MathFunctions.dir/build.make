@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2
+CMAKE_SOURCE_DIR = /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/Step2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2_build
+CMAKE_BINARY_DIR = /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/Step2_build
 
 # Include any dependencies generated for this target.
 include MathFunctions/CMakeFiles/MathFunctions.dir/depend.make
@@ -70,18 +70,18 @@ include MathFunctions/CMakeFiles/MathFunctions.dir/progress.make
 include MathFunctions/CMakeFiles/MathFunctions.dir/flags.make
 
 MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o: MathFunctions/CMakeFiles/MathFunctions.dir/flags.make
-MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o: /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/MathFunctions/mysqrt.cxx
+MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o: /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/Step2/MathFunctions/mysqrt.cxx
 MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o: MathFunctions/CMakeFiles/MathFunctions.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o"
-	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2_build/MathFunctions && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o -MF CMakeFiles/MathFunctions.dir/mysqrt.cxx.o.d -o CMakeFiles/MathFunctions.dir/mysqrt.cxx.o -c /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/MathFunctions/mysqrt.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/Step2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o"
+	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/Step2_build/MathFunctions && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o -MF CMakeFiles/MathFunctions.dir/mysqrt.cxx.o.d -o CMakeFiles/MathFunctions.dir/mysqrt.cxx.o -c /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/Step2/MathFunctions/mysqrt.cxx
 
 MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MathFunctions.dir/mysqrt.cxx.i"
-	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2_build/MathFunctions && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/MathFunctions/mysqrt.cxx > CMakeFiles/MathFunctions.dir/mysqrt.cxx.i
+	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/Step2_build/MathFunctions && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/Step2/MathFunctions/mysqrt.cxx > CMakeFiles/MathFunctions.dir/mysqrt.cxx.i
 
 MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MathFunctions.dir/mysqrt.cxx.s"
-	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2_build/MathFunctions && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/MathFunctions/mysqrt.cxx -o CMakeFiles/MathFunctions.dir/mysqrt.cxx.s
+	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/Step2_build/MathFunctions && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/Step2/MathFunctions/mysqrt.cxx -o CMakeFiles/MathFunctions.dir/mysqrt.cxx.s
 
 # Object files for target MathFunctions
 MathFunctions_OBJECTS = \
@@ -93,19 +93,19 @@ MathFunctions_EXTERNAL_OBJECTS =
 MathFunctions/libMathFunctions.a: MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o
 MathFunctions/libMathFunctions.a: MathFunctions/CMakeFiles/MathFunctions.dir/build.make
 MathFunctions/libMathFunctions.a: MathFunctions/CMakeFiles/MathFunctions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libMathFunctions.a"
-	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2_build/MathFunctions && $(CMAKE_COMMAND) -P CMakeFiles/MathFunctions.dir/cmake_clean_target.cmake
-	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2_build/MathFunctions && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MathFunctions.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/Step2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libMathFunctions.a"
+	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/Step2_build/MathFunctions && $(CMAKE_COMMAND) -P CMakeFiles/MathFunctions.dir/cmake_clean_target.cmake
+	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/Step2_build/MathFunctions && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MathFunctions.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 MathFunctions/CMakeFiles/MathFunctions.dir/build: MathFunctions/libMathFunctions.a
 .PHONY : MathFunctions/CMakeFiles/MathFunctions.dir/build
 
 MathFunctions/CMakeFiles/MathFunctions.dir/clean:
-	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2_build/MathFunctions && $(CMAKE_COMMAND) -P CMakeFiles/MathFunctions.dir/cmake_clean.cmake
+	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/Step2_build/MathFunctions && $(CMAKE_COMMAND) -P CMakeFiles/MathFunctions.dir/cmake_clean.cmake
 .PHONY : MathFunctions/CMakeFiles/MathFunctions.dir/clean
 
 MathFunctions/CMakeFiles/MathFunctions.dir/depend:
-	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2 /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/MathFunctions /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2_build /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2_build/MathFunctions /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2_build/MathFunctions/CMakeFiles/MathFunctions.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/Step2_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/Step2 /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/Step2/MathFunctions /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/Step2_build /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/Step2_build/MathFunctions /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/Step2_build/MathFunctions/CMakeFiles/MathFunctions.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : MathFunctions/CMakeFiles/MathFunctions.dir/depend
 

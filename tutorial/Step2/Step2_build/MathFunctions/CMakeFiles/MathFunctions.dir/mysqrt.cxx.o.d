@@ -1,5 +1,5 @@
 MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o: \
- /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/MathFunctions/mysqrt.cxx \
+ /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step2/Step2/MathFunctions/mysqrt.cxx \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
