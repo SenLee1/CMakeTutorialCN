@@ -1,0 +1,16 @@
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/CMakeFiles/Tutorial.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/CMakeFiles/test.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/CMakeFiles/edit_cache.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/CMakeFiles/rebuild_cache.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/CMakeFiles/list_install_components.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/CMakeFiles/install.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/CMakeFiles/install/local.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/CMakeFiles/install/strip.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/MathFunctions/CMakeFiles/MathFunctions.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/MathFunctions/CMakeFiles/test.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/MathFunctions/CMakeFiles/edit_cache.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/MathFunctions/CMakeFiles/rebuild_cache.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/MathFunctions/CMakeFiles/list_install_components.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/MathFunctions/CMakeFiles/install.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/MathFunctions/CMakeFiles/install/local.dir
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/MathFunctions/CMakeFiles/install/strip.dir

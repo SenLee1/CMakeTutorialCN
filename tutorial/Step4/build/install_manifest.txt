@@ -1,4 +1,4 @@
-/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/build/../install/bin/Tutorial
-/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/build/../install/include/TutorialConfig.h
-/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/build/../install/lib/libMathFunctions.a
-/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/build/../install/include/MathFunctions.h
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/build/installer/bin/Tutorial
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/build/installer/include/TutorialConfig.h
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/build/installer/lib/libMathFunctions.a
+/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step4/build/installer/include/MathFunctions.h
