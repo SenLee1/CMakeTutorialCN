@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Tutorial"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step6/Tutorial")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step6/build/Tutorial")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Tutorial" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Tutorial")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -59,12 +59,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step6/TutorialConfig.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step6/build/TutorialConfig.h")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step6/MathFunctions/cmake_install.cmake")
+  include("/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step6/build/MathFunctions/cmake_install.cmake")
 
 endif()
 
@@ -76,5 +76,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step6/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step6/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

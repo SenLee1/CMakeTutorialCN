@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step6")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step6")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step6/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
