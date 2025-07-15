@@ -68,14 +68,14 @@ set_target_properties(SqrtLibrary PROPERTIES
   INTERFACE_LINK_LIBRARIES "tutorial_compiler_flags"
 )
 
-# Import target "MathFunctions" for configuration "release"
+# Import target "MathFunctions" for configuration "Release"
 set_property(TARGET MathFunctions APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(MathFunctions PROPERTIES
   IMPORTED_LOCATION_RELEASE "/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step12/release/libMathFunctions.so.1.0.0"
   IMPORTED_SONAME_RELEASE "libMathFunctions.so.1"
   )
 
-# Import target "SqrtLibrary" for configuration "release"
+# Import target "SqrtLibrary" for configuration "Release"
 set_property(TARGET SqrtLibrary APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(SqrtLibrary PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
