@@ -49,6 +49,13 @@ endif()
 
 my_sqrt.cxx 用了 TutorialConfig.h 定义的 HAVE_LOG 和 HAVE_EXP, 所以 TutorialConfig.h 的路径(CMAKE_BINARY_DIR)需要告诉 my_sqrt.cxx (MathFunctions 库)
 
+~~~cmake
+target_include_directories(MathFunctions
+          INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}
+          PRIVATE ${CMAKE_BINARY_DIR}
+          )
+~~~
+
 ## better definition of VAR_NAME
 
 ~~~cmake 

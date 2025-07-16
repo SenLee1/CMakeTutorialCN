@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5
+CMAKE_SOURCE_DIR = /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/Step5
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/build
@@ -70,18 +70,18 @@ include CMakeFiles/Tutorial.dir/progress.make
 include CMakeFiles/Tutorial.dir/flags.make
 
 CMakeFiles/Tutorial.dir/tutorial.cxx.o: CMakeFiles/Tutorial.dir/flags.make
-CMakeFiles/Tutorial.dir/tutorial.cxx.o: ../tutorial.cxx
+CMakeFiles/Tutorial.dir/tutorial.cxx.o: /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/Step5/tutorial.cxx
 CMakeFiles/Tutorial.dir/tutorial.cxx.o: CMakeFiles/Tutorial.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tutorial.dir/tutorial.cxx.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tutorial.dir/tutorial.cxx.o -MF CMakeFiles/Tutorial.dir/tutorial.cxx.o.d -o CMakeFiles/Tutorial.dir/tutorial.cxx.o -c /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/tutorial.cxx
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tutorial.dir/tutorial.cxx.o -MF CMakeFiles/Tutorial.dir/tutorial.cxx.o.d -o CMakeFiles/Tutorial.dir/tutorial.cxx.o -c /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/Step5/tutorial.cxx
 
 CMakeFiles/Tutorial.dir/tutorial.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tutorial.dir/tutorial.cxx.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/tutorial.cxx > CMakeFiles/Tutorial.dir/tutorial.cxx.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/Step5/tutorial.cxx > CMakeFiles/Tutorial.dir/tutorial.cxx.i
 
 CMakeFiles/Tutorial.dir/tutorial.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tutorial.dir/tutorial.cxx.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/tutorial.cxx -o CMakeFiles/Tutorial.dir/tutorial.cxx.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/Step5/tutorial.cxx -o CMakeFiles/Tutorial.dir/tutorial.cxx.s
 
 # Object files for target Tutorial
 Tutorial_OBJECTS = \
@@ -106,6 +106,6 @@ CMakeFiles/Tutorial.dir/clean:
 .PHONY : CMakeFiles/Tutorial.dir/clean
 
 CMakeFiles/Tutorial.dir/depend:
-	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5 /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5 /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/build /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/build /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/build/CMakeFiles/Tutorial.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/Step5 /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/Step5 /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/build /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/build /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/build/CMakeFiles/Tutorial.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Tutorial.dir/depend
 

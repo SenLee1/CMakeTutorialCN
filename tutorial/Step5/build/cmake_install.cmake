@@ -1,4 +1,4 @@
-# Install script for directory: /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5
+# Install script for directory: /media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/Step5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

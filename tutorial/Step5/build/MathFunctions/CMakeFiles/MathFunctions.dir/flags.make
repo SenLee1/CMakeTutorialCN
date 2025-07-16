@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DHAVE_EXP -DHAVE_LOG
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/build
 
 CXX_FLAGS = -std=gnu++11
 

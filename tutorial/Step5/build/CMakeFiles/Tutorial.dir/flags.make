@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/build -I/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/MathFunctions
+CXX_INCLUDES = -I/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/build -I/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/Step5/MathFunctions
 
 CXX_FLAGS = -std=gnu++11
 

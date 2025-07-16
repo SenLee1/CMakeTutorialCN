@@ -234,7 +234,7 @@ Tutorial_BINARY_DIR:STATIC=/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tuto
 Tutorial_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-Tutorial_SOURCE_DIR:STATIC=/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5
+Tutorial_SOURCE_DIR:STATIC=/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/Step5
 
 //Use tutorial provided math implementation
 USE_MYMATH:BOOL=ON
@@ -324,7 +324,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5
+CMAKE_HOME_DIRECTORY:INTERNAL=/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/Step5
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

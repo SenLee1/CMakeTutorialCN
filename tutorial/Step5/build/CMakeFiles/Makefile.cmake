@@ -7,9 +7,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "../CMakeLists.txt"
-  "../MathFunctions/CMakeLists.txt"
-  "../TutorialConfig.h.in"
+  "/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/Step5/CMakeLists.txt"
+  "/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/Step5/MathFunctions/CMakeLists.txt"
+  "/media/senlee/Data/Courses/CMake/CMakeTutorialCN/tutorial/Step5/Step5/TutorialConfig.h.in"
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
